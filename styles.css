@@ -1,0 +1,135 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000000;
+    background: url('background7.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background: rgba(51, 51, 51, 0.8); /* Semi-transparent overlay */
+    color: #fff;
+    padding: 20px -20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: bottom;
+    position: relative;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding:10px;
+    gap: 470px;
+}
+
+.logo {
+    width: 220px;
+    height: 55px;
+    margin-right: 15px;
+}
+.logo1 {
+    width: 140px;
+    height: 100px;
+    margin-right: 15px;
+    border-radius: 20px;
+}
+header h1 {
+    margin: 0;
+    text-align:space-between;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+    display:flex;
+    z-index: 1;;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    text-align: right;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: rgba(51, 51, 51, 0.8); /* Semi-transparent overlay */
+    color: #fff;
+    text-align: center;
+    padding: 20px -40px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.execom-members {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.member {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.member-image img {
+    width: 100%;
+    height: 300px;
+}
+
+.member-info {
+    padding: 15px;
+    text-align: center;
+}
+
+.member-info h3 {
+    margin: 10px 0 5px;
+}
+
+.member-info p {
+    margin: 0;
+    color: #777;
+    font-size: 0.9em;
+}
+
+.elementor-widget-container, .elementor-heading-title, .elementor-button-wrapper, .elementor-divider, .elementor-column-gap-extended {
+    text-align: center;
+    
+}
+align-center{
+    text-align: center;
+}
+iframe{
+    width: 100%;
+    height:500px;
+    border-radius:30px;
+}
